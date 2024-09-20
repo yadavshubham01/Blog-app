@@ -1,0 +1,36 @@
+{
+  
+  "name": "@shubhamyadav01/common-blogs",
+  
+  "version": "1.0.0",
+  
+  "main": "dist/index.js",
+  
+  "scripts": {
+  
+    
+  "test": "echo \"Error: no test specified\" && exit 1"
+  
+  },
+  
+  "keywords": [],
+  
+  "author": "",
+  
+  "license": "ISC",
+  
+  "description": "",
+  
+  "dependencies": {
+  
+    
+  "@shubhamyadav01/common-blogs": "^1.0.0",
+  
+    
+  "typescript": "^5.5.4",
+  
+    
+  "zod": "^3.23.8"
+  
+  }
+}
