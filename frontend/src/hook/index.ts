@@ -23,8 +23,8 @@ export const useBlog = ({id} : {id:string}) => {
                 Authorization: localStorage.getItem("token")
             }
         })
-            .then(response => {
-                setBlog(response.data);
+         .then(response => {
+                setBlog(response.data.post);
                 console.log(response.data)
                 setLoading(false);
             })
